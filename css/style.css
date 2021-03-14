@@ -1,0 +1,279 @@
+/* font-family: 'Asap', sans-serif; */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    background-color: #b3b3b3;
+}
+
+.wrapper {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    margin-bottom: 3px;
+}
+
+/* Start Navigation */
+nav {
+    background-color: #089de3;
+    color: #fff;
+    display: flex;
+}
+
+nav>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 10px 20px 10px 30px;
+    flex-grow: 1;
+}
+
+nav>a:hover {
+    color: #ffdab9;
+}
+
+nav>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-grow: 2;
+    justify-content: flex-end;
+}
+
+nav>ul>li {
+    padding: 0px 13px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+nav>ul:last-child {
+    padding-right: 50px;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+}
+
+nav>ul>li>a:hover {
+    color: #ffdab9;
+}
+
+nav>ul>li:hover {
+    background-color: #111111;
+}
+
+/* End Navigation */
+
+/* Start Banner */
+.banner {
+    height: 400px;
+}
+
+.banner>img {
+    height: 100%;
+    width: 100%;
+}
+
+/* End Banner */
+
+/* Start Services */
+.service {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.service>h1 {
+    padding-bottom: 30px;
+}
+
+.serv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services {
+    width: 300px;
+    text-align: center;
+}
+
+.services>h3 {
+    padding: 15px 0px;
+}
+
+.services>p {
+    padding: 0px 10px 20px 0px;
+}
+
+.services>a {
+    text-decoration: none;
+    background-color: #089de3;
+    color: #fff;
+    padding: 7px 15px;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.services>a:hover {
+    background-color: #111111;
+    border: 2px solid #111111;
+}
+
+/* End Services */
+
+/* Start Customer */
+.customer {
+    background-color: #089de3;
+    text-align: center;
+    padding: 50px 30px;
+}
+
+.customer h1 {
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.customer img {
+    width: 130px;
+    height: 130px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.customer p {
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 150px 40px;
+    line-height: 30px;
+}
+
+.customer a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    border: 1px solid #fff;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 13px;
+    transition: 1s;
+}
+
+.customer a:hover {
+    color: #ffdab9;
+    background-color: #111111;
+    border: 1px solid #111111;
+}
+
+/* End Customer */
+
+/* Start Footer */
+.footer {
+    color: #fff;
+    background-color: #333333;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer small a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer small a:hover {
+    color: #ffdab9;
+    text-decoration: underline;
+}
+
+/* End Footer */
+
+/* Start About Us */
+.about {
+    background-color: #fff;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-top img {
+    border: 3px solid #fff;
+    outline: none;
+    padding: 20px 0px;
+}
+
+.about-bottom {
+    padding: 10px 30px;
+    text-align: justify;
+}
+
+.about-bottom p {
+    line-height: 18px;
+    padding-bottom: 10px;
+}
+
+/* End About Us */
+
+/* Start Contact Us */
+.contact {
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 560px;
+}
+
+.contact form {
+    /* border: 2px solid red; */
+    max-width: 500px;
+}
+
+.contact input {
+    width: 100%;
+    height: 35px;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+.contact textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 16px;
+    padding: 5px 0px 0px 10px;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.contact input[type="submit"] {
+    width: 100px;
+    padding-left: 0px;
+    background-color: #089de3;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.contact input[type="submit"]:hover {
+    background-color: #046b9b;
+}
+
+*:required {
+    border: 1px solid red;
+}
+
+/* End Contact Us */
